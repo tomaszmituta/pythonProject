@@ -4,7 +4,7 @@ from time import sleep, strftime
 from random import randint
 import pandas as pd
 
-chromedriver_path = 'C:/Users/tomas/PycharmProjects/All-Projects/Instagram/chromedriver.exe'  # Change this to your own chromedriver path!
+chromedriver_path = 'C:/Users/tomas/PycharmProjects/pythonProject/Instagram/chromedriver.exe'  # Change this to your own chromedriver path!
 webdriver = webdriver.Chrome(executable_path=chromedriver_path)
 sleep(10)
 webdriver.get('https://www.linkedin.com/')

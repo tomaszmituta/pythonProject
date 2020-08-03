@@ -26,23 +26,33 @@ search=webdriver.find_element_by_xpath(
                 '/html/body/header/div/form/div/div/div/div/div/div/input')
 
 sleep(5)
-search.send_keys("#jezierski")
+search.send_keys("#Jezierski")
 sleep(5)
 search.send_keys(Keys.RETURN)
 sleep(5)
-click_name=webdriver.find_element_by_class_name('name-and-distance')
-click_name.click()
-sleep(5)
-#send Message
-send_message=webdriver.find_element_by_xpath(
-                '/html/body/div[8]/div[3]/div/div/div/div/div[2]/main/div/section/div[2]/div/div[2]/div/div/span[2]/div/div')
-sleep(5)
-send_message.click()
-sleep(5)
+name = webdriver.__class__('name actor-name')
+name_number =0
+name_table = webdriver.find_element_by_class_name('name-and-icon')
+print(name)
+
+# musimy policzyc ile jest w name actor-name na stronie , pozniej next page.
+
+
+#
+# click_name=webdriver.find_element_by_class_name('name-and-distance')
+# click_name.click()
+# sleep(5)
+# #send Message
+# send_message=webdriver.find_element_by_xpath('/html/body/div[8]/div[3]/div/div/div/div/div[2]/main/div/section/div[2]/div/div[2]/div/div/span[2]/div/div')
+# sleep(5)
+# send_message.click()
+# sleep(5)
 # #back
 # back_to_search=webdriver.back()
-# sleep(5)
+sleep(5)
 
-#hire will be loop for click_name +1 as this needs run ++1
+
+
+
 
 

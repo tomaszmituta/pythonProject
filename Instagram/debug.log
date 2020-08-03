@@ -1,0 +1,6 @@
+[0720/091058.029:ERROR:file_io_win.cc(170)] CreateFile C:\Users\tomas\AppData\Local\Temp\scoped_dir16772_9226\Crashpad\reports\2b253c61-f40d-4292-bfb9-2e9fcc584e62.dmp: System nie mo¿e odnaleŸæ okreœlonej œcie¿ki. (0x3)
+[0720/091058.043:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0720/100706.369:ERROR:file_io_win.cc(170)] CreateFile C:\Users\tomas\AppData\Local\Temp\scoped_dir16772_9226\Crashpad\reports\8eda191a-39f1-4498-8a0c-1a501515934c.dmp: System nie mo¿e odnaleŸæ okreœlonej œcie¿ki. (0x3)
+[0720/100706.370:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed
+[0720/114036.344:ERROR:file_io_win.cc(170)] CreateFile C:\Users\tomas\AppData\Local\Temp\scoped_dir10884_9382\Crashpad\reports\8f65ebb8-23b3-4c9f-a783-2f4d2f22da96.dmp: System nie mo¿e odnaleŸæ okreœlonej œcie¿ki. (0x3)
+[0720/114036.354:ERROR:crash_report_exception_handler.cc(97)] PrepareNewCrashReport failed

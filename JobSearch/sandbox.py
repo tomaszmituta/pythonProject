@@ -13,10 +13,10 @@ sleep(3)
 
 username = webdriver.find_element_by_name('session_key')
 #enter yor e-mail
-username.send_keys('tomasz.mituta@gmail.com')
+username.send_keys('ID')
 password = webdriver.find_element_by_name('session_password')
 #enter pass to linkied in
-password.send_keys('Tomasz01+')
+password.send_keys('PASS')
 
 #enter to page
 login_in_enter = webdriver.find_element_by_name("session_password").send_keys(Keys.RETURN)
